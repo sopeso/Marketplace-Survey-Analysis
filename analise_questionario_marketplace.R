@@ -1,6 +1,9 @@
+# Autora - Sophia Araújo de Moraes
+# Data - 07/2023
+
 # Marketplace survey 
 
-#Instlando e carregando pacotes-------------------------------------------------
+#Instlando e carregando pacotes------------------------------------------------
 loadpackages = function(x){
   for(i in x){
     if(!require(i, character.only = TRUE)){
